@@ -3,3 +3,6 @@ version: '${project.version}'
 main: net.murdersecret.Plugin
 api-version: 1.19
 authors: [ JavaPishik ]
+commands:
+  game:
+    description: main plugin command (OP)
