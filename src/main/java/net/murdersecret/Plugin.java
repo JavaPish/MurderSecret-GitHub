@@ -8,6 +8,7 @@ public final class Plugin extends JavaPlugin {
 
     //Variables
     public Location spawnLocation = new Location(this.getServer().getWorld("murder-secret-map"), 0.5 , 61 , 0.5);
+    public String pluginDisplayName = "&7<&5Murder&dSecret&7> ";
 
     @Override
     public void onEnable() {
